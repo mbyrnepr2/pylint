@@ -31,7 +31,7 @@
 from os.path import join
 
 # For an official release, use dev_version = None
-numversion = (2, 8, 0)
+numversion = (2, 7, 3)
 dev_version = 1
 
 version = ".".join(str(num) for num in numversion)
