@@ -538,7 +538,8 @@ def _make_run_options(self: Run) -> Options:
         (
             "verbose",
             {
-                "action": _DoNothingAction,
+                "action": "store_true",
+                "default": False,
                 "kwargs": {},
                 "short": "v",
                 "help": "In verbose mode, extra non-checker-related info "

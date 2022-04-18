@@ -26,6 +26,8 @@ Release date: TBA
 
   Closes #5224
 
+* Remove the ``VERBOSE`` argument from the help message for the ``verbose`` option since it is not used.
+
 * Fixed failure to enable ``deprecated-module`` after a ``disable=all``
   by making ``ImportsChecker`` solely responsible for emitting ``deprecated-module`` instead
   of sharing responsibility with ``StdlibChecker``. (This could have led to double messages.)
