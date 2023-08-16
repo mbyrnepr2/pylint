@@ -1,6 +1,9 @@
 - id: pylint
   name: pylint
+  description: ""
   entry: pylint
   language: python
+  minimum_pre_commit_version: 2.9.2
   types: [python]
   require_serial: true
+  additional_dependencies: ["pyenchant~=3.2"]
