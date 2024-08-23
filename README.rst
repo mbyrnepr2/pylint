@@ -1,6 +1,7 @@
 `Pylint`_
 =========
 
+
 .. _`Pylint`: https://pylint.pycqa.org/
 
 .. This is used inside the doc to recover the start of the introduction
